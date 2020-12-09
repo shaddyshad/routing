@@ -70,7 +70,7 @@ export {Route, Link, NavLink, Switch} from 'react-router-dom';
 
 // A component that takes a config and renders a complete route with the setup data 
 // this component is typed with prop types 
-export const renderRoutes = ({routes}) => {
+export const RenderRoutes = ({routes}) => {
     return (
         <Router>
             <Switch>
