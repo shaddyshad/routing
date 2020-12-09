@@ -66,7 +66,7 @@ export const ScrollTop = (props) => {
     return null;
 }
 
-export {Route, Link, NavLink, Switch} from 'react-router-dom';
+export {Route, Link, NavLink, Switch, withRouter} from 'react-router-dom';
 
 // A component that takes a config and renders a complete route with the setup data 
 // this component is typed with prop types 
