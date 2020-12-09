@@ -10,7 +10,7 @@ const history = createBrowserHistory();
 const routerContext = createContext();
 
 //pass all the props from main react router component to the router context provider
-export const Router = () => {
+export const Router = ({children}) => {
     return(
         <ReactRouter history={history}>
             <RouterContextProvider>
