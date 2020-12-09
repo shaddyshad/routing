@@ -76,7 +76,7 @@ export const RenderRoutes = ({routes}) => {
             <Switch>
                 {
                     routes.map(route => (
-                        <Route exact={route.exact} path={route.pathname} component={route.component}/>
+                        <Route exact={route.exact} path={route.pathname} component={route.component} key={route.key}/>
                     ))
                 }
             </Switch>
