@@ -1,6 +1,6 @@
 {
   "name": "router-util",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A small library containing simpler routing APIs for use with react projects that require routing",
   "author": "shaddyshad",
   "license": "MIT",
