@@ -1,4 +1,7 @@
 ## React routing
+[![npm version](https://badgen.net/npm/v/router-utils)](https://www.npmjs.com/package/router-utils)
+![minified + gzipped](https://badgen.net/bundlephobia/minzip/router-utils)
+[![downloads](https://badgen.net/npm/dw/router-utils)](https://www.npmjs.com/package/router-utils)
 This library contains a few API's that provides routing capabilities for react apps that are multi pages   
 
 It provides a component that can be configured with all routes and their components and handles the details of rendering 
