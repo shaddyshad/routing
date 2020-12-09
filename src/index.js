@@ -1,5 +1,5 @@
 import React, {useContext, createContext, useEffect} from 'react';
-import {Router as ReactRouter, withRouter, Switch, Route} from 'react-router-dom'
+import {BrowserRouter as ReactRouter, withRouter, Switch, Route} from 'react-router-dom'
 import queryString from 'query-string'
 import {createBrowserHistory} from 'history'
 
