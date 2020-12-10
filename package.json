@@ -54,5 +54,6 @@
     "history": "^5.0.0",
     "query-string": "^6.13.7",
     "react-router-dom": "^5.2.0"
-  }
+  },
+  "keywords": ["react-router", "react-router-dom", "router", "router-utils"]
 }
