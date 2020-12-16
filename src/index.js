@@ -1,10 +1,6 @@
 import React, {useContext, createContext, useEffect} from 'react';
 import {BrowserRouter as ReactRouter, withRouter, Switch, Route} from 'react-router-dom'
 import queryString from 'query-string'
-import {createBrowserHistory} from 'history'
-
-//create instantiate a history object to hold the historical routes for this project
-const history = createBrowserHistory();
 
 //create a context object to hold the routing props for all components
 const routerContext = createContext();
@@ -12,7 +8,7 @@ const routerContext = createContext();
 //pass all the props from main react router component to the router context provider
 export const Router = ({children}) => {
     return(
-        <ReactRouter history={history}>
+        <ReactRouter>
             <RouterContextProvider>
                 {children}
             </RouterContextProvider>
@@ -24,7 +20,7 @@ export const Router = ({children}) => {
 //the context provider root component to pass as a context to any child that uses the context
 export const RouterContextProvider = withRouter(({children, ...routerProps}) =>  {
     return(
-        <routerContext.Provider history={history} value={routerProps}>
+        <routerContext.Provider value={routerProps}>
             {children}
         </routerContext.Provider>
     )
