@@ -69,7 +69,7 @@ To use Routing capabilities in other components, for example to redirect users o
 
 In `Signin.js`.
 
-```
+```jsx
    import React from 'react'
    import {useRouter} from 'router-util'
    // auth utils 
@@ -97,7 +97,7 @@ In `Signin.js`.
 ## Exports 
 + `RenderRoutes` - takes a list of routes, renders a `BrowserRouter` with the routes provided 
 + `useRouter()` - A hook to allow components use routing capabilities. It exposes a router with the following APII
-```
+```js
    {
       push - to push a route to the history
       pop - pops from history 
