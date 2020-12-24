@@ -110,7 +110,11 @@ In `Signin.js`.
 + `scrollToTop` - A utility to scroll the window to the top 
 
 ## Author 
-### shaddyshad
 
 [github/shaddyshad](https://github.com/shaddyshad)
+
+## License
+
+MIT © [shaddyshad](https://github.com/shaddyshad)
+
 
