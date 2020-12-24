@@ -15,16 +15,16 @@ Built with [react-router-dom](https://www.npmjs.com/package/react-router-dom) an
 
 Install from [NPM](https://npmjs.org) or [Yarn](https://yarnpkg.com/)  
 
-```
-   $ npm i router-util --save
-   $ yarn add router-util
+```bash
+   npm i router-util --save
+   yarn add router-util
 ```
 
 ## Usage 
 Declare your routes as a list with this format 
 
-```
-   /src/routes.js
+```jsx
+   //src/routes.js
 
    import MyComponetn1 from './src/MyComponent1
    import MyComponent2 from './src/MyComponent2
@@ -50,7 +50,7 @@ Declare your routes as a list with this format
 
 In `App.js` 
 
-```
+```jsx
    import React from 'react'
    import {RenderRoutes} from 'router-utils'
    import routes from './routes'
