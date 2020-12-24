@@ -4,7 +4,7 @@
   "description": "A small library containing simpler routing APIs for use with react projects that require routing",
   "author": "shaddyshad",
   "license": "MIT",
-  "repository": "shaddyshad/router",
+  "repository": "shaddyshad/routing",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
