@@ -31,13 +31,13 @@ Declare your routes as a list with this format
 
    const routes = [
       {
-         path: '/page1',
+         pathname: '/page1',
          component: MyComponent1,
          exact: true,
          key: 'sd'      // unique key
       },
       {
-         path: '/page2',
+         pathname: '/page2',
          component: MyComponent2,
          exact: true,
          key: 'sdas'  
